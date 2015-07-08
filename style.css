@@ -1,0 +1,115 @@
+/*
+Theme Name: 菩提书院南京修学处
+Author: 慧颂
+Email: 7415319@qq.com
+Description: 菩提书院南京修学点
+Version: 0.0.5
+Template: loostrive
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+::selection { background: #99978d; }
+::-moz-selection {background:#99978d;}
+a:hover{color:#8c7a66}
+#topbar ul li a:hover,{ color:#fff}
+.home { background-color: #99978d}
+.home_none:hover { background-color: #99978d}
+.post_hover:hover { border-bottom: #99978d solid 5px; }
+.topnav li a:hover, .topnav .current_page_item ,.topnav .current-menu-item,.topnav .current-post-parent{ color:#fff;background: #99978d; }
+
+.mainmenus{margin-bottom:0em !important;background:#84725e}
+
+#footer{background:#8c7a66}
+#footer .copyright{
+	color: #999;
+}
+#footer  a {
+	color: #bbb !important;
+}
+
+.article_info,#respond {
+border-top: #998670 solid 5px;
+}
+.commentlist .comment-body:hover {
+border-left: 5px solid #998670;
+}
+#pinglun, #home, #gotop {
+background-color: #8c7a66
+}
+
+
+#main-body {
+ max-width:1000px;
+ margin:auto;
+}
+.row {margin-bottom:1em}
+
+
+
+
+
+.article_container h1{text-align:center}
+
+ul.salon_meta{
+	list-style:none;margin:1em auto;padding:1em;
+	border:	1px solid #ccc6af;
+	border-radius:10px;
+	background-color:#dad4bc;
+	color:#7e694c;
+	box-shadow: 3px 3px 0 rgba(218,212,188,0.5);
+}
+ul.salon_meta li {
+	padding:5px 0;
+	border-bottom: 1px dashed  rgba(119,119,119,0.3) ;
+}
+ul.salon_meta li.last{border:none}
+.lg-80{width:80%;margin:auto;padding:1em}
+
+@media screen and (max-width: 640px){
+	.lg-80{width:100%;box-sizing:border-box;}
+}
+ul.salon_meta li{list-style:none;font-size:1em}
+ul.salon_meta li .label{font-weight:bold;font-size:1.1em;}
+ul.salon_meta li .content{font-size:1.0em;}
+
+#post_content p{text-indent:2em}
+#tbox {z-index:100;}
+
+.salon-register-btn{width:80%;margin:auto;}
+
+a.btn-register{
+    background:#3F3428;
+    display:block;
+    margin:1em;
+	color:#ffffff;
+	font-size:1.1em;
+	text-shadow:none;
+}
+a.btn-register:hover{
+    color:#ffffff;
+    background:rgba(63,52,40,0.8);
+}
+
+.topnav .menu-button{right:10px;}
+
+.salon-register-form,
+.salon-register-form h1{border-bottom: #998670 solid 5px;}
+
+.salon-register-form .form-group{text-align:center}
+.salon-register-form .form-group label{float:left;display:block;width:20%;margin-right:5%;text-align:right}
+.salon-register-form .form-group input,
+.salon-register-form .form-group select{width:60%;float:left;text-align:left}
+.salon-register-form .form-group .btn-salon{font-size:1.2em;text-shadow:none;background:#3F3428;width:60%;color:#ffffff;}
+.salon-register-form .form-group .btn-salon:hover{
+	 color:#ffffff;
+    background:rgba(63,52,40,0.8);
+}
+.salon-register-form .form-group .form-tips{color:#bf415c; clear:both;width:60%;margin-left:25% ;}
+@media only screen and (max-width: 640px){
+	.salon-register-form .form-group label{text-align:left;box-sizing:border-box;width:100%;clear:both;}
+	.salon-register-form .form-group input,.salon-register-form .form-group .btn-salon,
+	.salon-register-form .form-group select{width:100%;clear:both;box-sizing:border-box;}
+	.salon-register-form .form-group .form-tips{margin:auto;width:auto}
+	#comment-author-info input{width:75%}	
+}
+
