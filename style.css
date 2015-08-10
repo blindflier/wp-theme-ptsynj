@@ -98,7 +98,7 @@ a.btn-register:hover{
 .salon-register-form .form-group{text-align:center}
 .salon-register-form .form-group label{float:left;display:block;width:20%;margin-right:5%;text-align:right}
 .salon-register-form .form-group input,
-.salon-register-form .form-group select{width:60%;float:left;text-align:left}
+.salon-register-form .form-group select{width:60%;float:left;text-align:left;}
 .salon-register-form .form-group .btn-salon{font-size:1.2em;text-shadow:none;background:#3F3428;width:60%;color:#ffffff;}
 .salon-register-form .form-group .btn-salon:hover{
 	 color:#ffffff;
@@ -110,6 +110,24 @@ a.btn-register:hover{
 	.salon-register-form .form-group input,.salon-register-form .form-group .btn-salon,
 	.salon-register-form .form-group select{width:100%;clear:both;box-sizing:border-box;}
 	.salon-register-form .form-group .form-tips{margin:auto;width:auto}
-	#comment-author-info input{width:75%}	
+	#comment-author-info input{width:75%}
+	.salon-register-form .form-group .halfwidth{
+		width:50%;
+	}
 }
 
+
+.salon-register-form .form-group select{
+	font-size: 20px;
+}
+.left{
+	float:left;
+}
+.salon-register-form .form-group .autowidth {
+	width:auto !important;
+}
+
+.salon-register-form .form-group input[type=checkbox]{
+	height:30px;
+	margin:0 5px 0 25px;
+}
