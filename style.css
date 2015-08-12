@@ -96,7 +96,7 @@ a.btn-register:hover{
 .salon-register-form h1{border-bottom: #998670 solid 5px;}
 
 .salon-register-form .form-group{text-align:center}
-.salon-register-form .form-group label{float:left;display:block;width:20%;margin-right:5%;text-align:right}
+.salon-register-form .form-group label{float:left;display:block;width:25%;margin-right:5%;text-align:right}
 .salon-register-form .form-group input,
 .salon-register-form .form-group select{height:25pt;line-height:25pt;font-size:1em;width:60%;float:left;text-align:left;}
 .salon-register-form .form-group .btn-salon{font-size:1.2em;text-shadow:none;background:#3F3428;width:60%;color:#ffffff;}
