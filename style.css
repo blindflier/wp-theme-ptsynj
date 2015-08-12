@@ -126,8 +126,8 @@ a.btn-register:hover{
 }
 
 .salon-register-form .form-group input[type=checkbox]{
-	height:30px;
 	margin:0 5px 0 25px;
+	font-size:2em;
 }
 
 .salon-register-form .form-group select{
