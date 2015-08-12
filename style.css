@@ -96,7 +96,7 @@ a.btn-register:hover{
 .salon-register-form h1{border-bottom: #998670 solid 5px;}
 
 .salon-register-form .form-group{text-align:center}
-.salon-register-form .form-group label{float:left;display:block;width:25%;margin-right:5%;text-align:right}
+.salon-register-form .form-group label{float:left;display:block;width:30%;margin-right:5%;text-align:right}
 .salon-register-form .form-group input,
 .salon-register-form .form-group select{height:25pt;line-height:25pt;font-size:1em;width:60%;float:left;text-align:left;}
 .salon-register-form .form-group .btn-salon{font-size:1.2em;text-shadow:none;background:#3F3428;width:60%;color:#ffffff;}
@@ -105,7 +105,9 @@ a.btn-register:hover{
     background:rgba(63,52,40,0.8);
 }
 .salon-register-form .form-group .form-tips{color:#bf415c; clear:both;width:60%;margin-left:25% ;}
-@media only screen and (max-width: 640px){
+
+
+@media only screen and (max-width: 639px){
 	.salon-register-form .form-group label{text-align:left;box-sizing:border-box;width:100%;clear:both;}
 	.salon-register-form .form-group input,.salon-register-form .form-group .btn-salon,
 	.salon-register-form .form-group select{width:100%;clear:both;box-sizing:border-box;}
@@ -114,8 +116,8 @@ a.btn-register:hover{
 	.salon-register-form .form-group .halfwidth{
 		width:50%;
 	}
-}
 
+}
 
 
 .left{
@@ -125,11 +127,49 @@ a.btn-register:hover{
 	width:auto !important;
 }
 
-.salon-register-form .form-group input[type=checkbox]{
+
+
+.training-register-form,
+.training-register-form h1{border-bottom: #998670 solid 5px;}
+
+.training-register-form .form-group{text-align:center}
+.training-register-form .form-group label{float:left;display:block;width:25%;margin-right:5%;text-align:right}
+.training-register-form .form-group input,
+.training-register-form .form-group select{height:25pt;line-height:25pt;font-size:1em;width:60%;float:left;text-align:left;}
+.training-register-form .form-group .btn-salon{font-size:1.2em;text-shadow:none;background:#3F3428;width:60%;color:#ffffff;}
+.training-register-form .form-group .btn-salon:hover{
+	color:#ffffff;
+	background:rgba(63,52,40,0.8);
+}
+.training-register-form .form-group .form-tips{color:#bf415c; clear:both;width:60%;margin-left:25% ;}
+
+
+@media only screen and (max-width: 750px){
+	.training-register-form .form-group label{text-align:right;box-sizing:border-box;width:30%;}
+	.training-register-form .form-group input,.salon-register-form .form-group .btn-salon,
+	.training-register-form .form-group select{width:65%;box-sizing:border-box;}
+	.training-register-form .form-group .halfwidth{
+		width:50%;
+	}
+	label.sm-full{
+		text-align:left !important;
+		width:100% !important;
+	}
+	.lodge,#nolodge,.food,#nofood{clear:both}
+}
+
+.left{
+	float:left;
+}
+.training-register-form .form-group .autowidth {
+	width:auto !important;
+}
+
+.training-register-form .form-group input[type=checkbox]{
 	margin:0 5px 0 25px;
 	font-size:1.5em;
 }
 
-.salon-register-form .form-group select{
+.training-register-form .form-group select{
 	-webkit-appearance: button;
 }
