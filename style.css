@@ -145,7 +145,11 @@ a.btn-register:hover{
 
 
 @media only screen and (max-width: 750px){
-	.training-register-form .form-group label{text-align:right;box-sizing:border-box;width:30%;}
+	.lg-80 {padding:0}
+	#post_content {
+		padding: 0;
+	}
+	.training-register-form .form-group label{margin-right:2%;text-align:right;box-sizing:border-box;width:31%;}
 	.training-register-form .form-group input,.salon-register-form .form-group .btn-salon,
 	.training-register-form .form-group select{width:65%;box-sizing:border-box;}
 	.training-register-form .form-group .halfwidth{
