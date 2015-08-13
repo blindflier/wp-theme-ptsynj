@@ -159,7 +159,7 @@ a.btn-register:hover{
 		text-align:left !important;
 		width:100% !important;
 	}
-	.lodge,#nolodge,.food,#nofood{clear:both}
+	.sm-clear{clear:both}
 }
 
 .left{
